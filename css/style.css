@@ -1,9 +1,10 @@
 body {font: 16px/24px 'Vollkorn', serif; color: #333; background: #efefef; text-align: justify; margin: 0 auto; padding: 12px; box-sizing: border-box;}
 body, html {height: 100%;}
 
-/*.wrapper {box-sizing: border-box; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto; }
-*/
+
 #container {max-width: 900px; margin: 0 auto;}
+#wrapper {box-sizing: border-box; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto;}
+
 .desc {max-width: 300px; margin: 0 auto;}
 
 a {color: #333; text-decoration: none;}
@@ -17,7 +18,7 @@ a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #22
 .meta a {border-bottom: none;}
 .meta a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #222;}
 
-#contact {display: none; text-transform: none; text-align: center; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em;}
+#contact {display: none; text-transform: none; text-align: center; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em; margin: 0 0 20px;}
 
 inline-list {list-style: none; margin: 0; padding: 0;}
 .inline-list li {display: inline-block; margin: 0 4px;}
