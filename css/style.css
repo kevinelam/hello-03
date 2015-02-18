@@ -25,6 +25,9 @@ inline-list {list-style: none; margin: 0; padding: 0;}
 .inline-list li {display: inline-block; margin: 0 4px;}
 
 /*font awesome*/
-.fa-vimeo-square {padding-right: 8px; color:#888}
-.fa-envelope-o {padding-right: 5px; color:#888}
-.fa-copyright {padding-right: 5px; color:#888}
+.fa-vimeo-square {padding-right: 8px; color: #888}
+.fa-envelope-o {padding-right: 5px; color: #888}
+.fa-copyright {padding-right: 5px; color: #888}
+.close {text-align: right;}
+.close a:hover {background-color: transparent;}
+.fa-times{color: #222;}
