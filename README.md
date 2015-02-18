@@ -12,7 +12,7 @@ Theme & Code: [MIT License](http://www.opensource.org/licenses/mit-license.php)
 Forkable Version: _
 
 ***
-Content &copy; [Kevin Elam](http://kevinelam.com)
+Page content &copy; [Kevin Elam](http://kevinelam.com)
 
 
 
