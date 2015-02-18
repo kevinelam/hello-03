@@ -1,9 +1,9 @@
-personal site. 
+Personal landing page.
 
-fonts based on
-https://femmebot.github.io/google-type/
+Utilizes:
+[GitHub]{https://github.com), [jQuery](https://jquery.com/), [Pagify.js](https://github.com/cmPolis/Pagify), [Vimeo](https://vimeo.com), [Embed Responsively](https://embedresponsively.com), [Font Awesome](https://fortawesome.github.io/Font-Awesome/), [Google Fonts](https://www.google.com/fonts/), & [font inspiration](https://femmebot.github.io/google-type/).
 
-github, jquery, pagify.js, font-awesome icons, google fonts, vimeo, & embedresponsively.com.
+All content &copy'; Kevin Elam
 
-[MIT License](http://www.opensource.org/licenses/mit-license.php)
-
+Theme & Code: [MIT License](http://www.opensource.org/licenses/mit-license.php)
+Forkable: [here](https://github.com/cmPolis/Pagify)
