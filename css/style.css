@@ -1,9 +1,11 @@
 body {font: 16px/24px 'Vollkorn', serif; color: #333; background: #efefef; text-align: justify; margin: 0 auto; padding: 12px; box-sizing: border-box;}
 body, html {height: 100%;}
 
-#container {max-width: 900px; margin: 0 auto;}
 #wrapper {box-sizing: border-box; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto;}
+#container {max-width: 900px; margin: 0 auto;}
+
 .desc {max-width: 300px; margin: 0 auto;}
+.right-align {text-align: right;}
 
 a {color: #333; text-decoration: none;}
 a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #222}
