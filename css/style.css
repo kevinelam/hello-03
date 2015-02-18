@@ -17,8 +17,9 @@ a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #22
 .meta a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #222;}
 #contact {display: none; text-transform: none;}
 
-.inline-list {list-style: none; margin: 0; padding: 0;}
+./*inline-list {list-style: none; margin: 0; padding: 0;}
 .inline-list li {display: inline-block;}
+*/
 
 /*font awesome*/
 .fa-vimeo-square {padding-right: 8px; color:#888}
