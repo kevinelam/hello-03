@@ -15,7 +15,7 @@ a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #22
 
 
 
-.meta {text-align: center; text-transform: uppercase; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em;}
+.meta {text-align: center; text-transform: uppercase; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em; padding: 0;}
 .meta a {border-bottom: none;}
 .meta a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #222;}
 #contact {display: none; text-transform: none;}
