@@ -14,7 +14,7 @@ a:hover {color: #222; background-color: #F9DF74; border-bottom: 1px solid #F6CB2
 
 .info a {padding: 0 4px;}
 
-.meta {text-align: center; text-transform: uppercase; font-family: "Courier New", Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em; padding: 5px 0 20px; margin: 30px auto 0; max-width: 300px; border-top: 1px solid #888;}
+.meta {text-align: center; text-transform: uppercase; font-family: "Courier New", Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em; padding: 5px 0 0; margin: 30px auto 0; max-width: 300px; border-top: 1px solid #888;}
 .meta a {padding: 0 4px;}
 .meta a:hover {color: #222; background-color: #F9DF74; border-bottom: 1px solid #F6CB2D;}
 .inline-list {list-style: none;}
