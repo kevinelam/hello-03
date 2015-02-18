@@ -32,5 +32,5 @@ a:hover {color: #222; background-color: #F9DF74; border-bottom: 1px solid #F6CB2
 /*page & close*/
 #page_holder {margin: 0 10px;}
 .fa-times {color: #888;}
-.close {text-align: right; margin: 0;}
+.close {text-align: right; margin: 0 2px;}
 .close a:hover {color: #888; background-color: transparent; border-bottom: none;}
