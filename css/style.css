@@ -26,9 +26,7 @@ a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #22
 .fa-envelope-o {padding-right: 5px; color: #888}
 .fa-copyright {padding-right: 5px; color: #888}
 
-.desc a (padding: 0px 4px;)
-
 /*close vimeo*/
-#page_holder {text-align: right;}
+.right-align {text-align: right;}
 #page_holder a:hover {background-color: transparent;}
 .fa-times {color: #222;}
