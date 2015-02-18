@@ -20,7 +20,7 @@
       'animationOutSpeed': 0,
       'onChange': function (page) {},
       'cache': false,
-      'basePagePath': '//kevinelam.github.io/hello-03/'
+      'basePagePath': '//kevinelam.github.io/sandbox/'
     };
     this.settings = $.extend({}, this.defaults, options);
 
