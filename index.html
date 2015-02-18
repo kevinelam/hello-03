@@ -15,8 +15,7 @@
       <nav>
         <a href="#about">About</a>
         <a href="#reel">Reel</a>
-        <a href="#options">Options</a>
-        <a href="https://github.com/cmpolis/Pagify">Github</a>
+        <a href="#nocomply">No Comply</a>
       </nav>
     </header>
     
@@ -25,25 +24,16 @@
   
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/pagify.js" type="text/javascript"></script>
-<script src="js/jquery.fitvids.js" type="text/javascript"></script>
 
 <!--pagify-->
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('#page_holder').pagify({
-			pages: ['about', 'reel', 'options'],
+			pages: ['about', 'reel', 'nocomply'],
 			animation: 'fadeIn',
 			'default': 'about',
 			cache: true
 		});
-	});
-</script>
-
-<!--fitvids-->
-<script type="text/javascript">
-	$(document).ready(function(){
-		// Target your .container, .wrapper, .post, etc.
-		$("#thing-with-videos").fitVids();
 	});
 </script>
 
