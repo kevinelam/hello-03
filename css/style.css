@@ -1,9 +1,10 @@
-body {font: 16px/24px 'Vollkorn', serif; color: #333; background: #EFEFEF; text-align: justify; margin: 0 auto; padding: 12px; box-sizing: border-box;}
+body {font: 16px/24px 'Vollkorn', serif; color: #333; background: #EFEFEF; margin: 0 auto; padding: 12px; box-sizing: border-box;}
 body, html {height: 100%;}
 
 #wrapper {box-sizing: border-box; background: #FFFFFA; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto;}
 #container {max-width: 960px; margin: 0 auto;}
-.info {max-width: 300px; margin: 0 auto;}
+.info {max-width: 300px; margin: 0 auto; text-align: justify;}
+.404 {text-align: center;}
 
 a {color: #333; text-decoration: none;}
 a:hover {color: #222; background-color: #F9DF74; border-bottom: 1px solid #F6CB2D;}
