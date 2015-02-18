@@ -4,7 +4,7 @@ body, html {height: 100%;}
 
 #container {max-width: 900px; margin: 0 auto;}
 #wrapper {box-sizing: border-box; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto;}
-#page_holder {margin: 20px 0;}
+#page_holder {margin: 10px 0; text-align: right;}
 
 .desc {max-width: 300px; margin: 0 auto;}
 
@@ -28,6 +28,5 @@ inline-list {list-style: none; margin: 0; padding: 0;}
 .fa-vimeo-square {padding-right: 8px; color: #888}
 .fa-envelope-o {padding-right: 5px; color: #888}
 .fa-copyright {padding-right: 5px; color: #888}
-.close {text-align: right;}
-.close a:hover {background-color: transparent;}
+.fa-times a:hover {background-color: transparent;}
 .fa-times{color: #222;}
