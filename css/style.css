@@ -3,14 +3,16 @@ body, html {height: 100%;}
 
 /*.wrapper {box-sizing: border-box; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto; }
 */
-#container {max-width: 900px;}
+#container {max-width: 900px; margin: 0 auto;}
 
 a {color: #333; text-decoration: none;}
 a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #222}
 
-.name {font: 24px/28px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #C31; margin: 20px 20px 30px;}
+.name {font: 24px/28px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #C31; margin: 20px 0 30px;}
 .name a {color: #C31;}
 .name a:hover {color: #C31; background-color: transparent; border-bottom: none;}
+
+.desc {max-width: 300px;}
 
 .meta {text-align: center; text-transform: uppercase; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em;}
 .meta a {border-bottom: none;}
