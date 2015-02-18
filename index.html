@@ -23,27 +23,26 @@
     <div id="page_holder" />
     </div>
   
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-    <script src="js/pagify.js" type="text/javascript"></script>
-		<script src="js/jquery.fitvids.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/pagify.js" type="text/javascript"></script>
+<script src="js/jquery.fitvids.js" type="text/javascript"></script>
 
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('#page_holder').pagify({
-          pages: ['about', 'usage', 'options'],
-          animation: 'fadeIn',
-          'default': 'about',
-          cache: true
-        });
-      });
-    </script>
-    
-    <script type="text/javascript">
-			$(document).ready(function(){
-				// Target your .container, .wrapper, .post, etc.
-				$("#thing-with-videos").fitVids();
-			});
-		</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#page_holder').pagify({
+			pages: ['about', 'usage', 'options'],
+			animation: 'fadeIn',
+			'default': 'about',
+			cache: true
+		});
+	});
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// Target your .container, .wrapper, .post, etc.
+		$("#thing-with-videos").fitVids();
+	});
+</script>
 
   </body>
 </html>
