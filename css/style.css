@@ -30,5 +30,5 @@ a:hover {color: #222; background-color: #F9DF74; border-bottom: 1px solid #F6CB2
 
 /*close vimeo*/
 .fa-times {color: #888;}
-.close {text-align: right;}
+.close {text-align: right; margin: 0;}
 .close a:hover {color: #888; background-color: transparent; border-bottom: none;}
