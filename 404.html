@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+<meta charset="utf-8">
+
+<!-- favicon -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<!-- apple touch icons -->
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+<!-- win8 tile icons -->
+<meta name="msapplication-square70x70logo" content="smalltile.png" />
+<meta name="msapplication-square310x310logo" content="largetile.png" />
+
+<!--css-->
+<link rel="stylesheet" href="css/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Unica+One%7cVollkorn">
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<title>Kevin Elam | Animation & Illustration</title>
+
+</head>
+
+  <body>
+  	<div id="wrapper">
+    <div id="container">
+    
+    <header>
+     	<h1 class="name"><a href="#intro"><i class="fa fa-tree"></i><br>Hello</a></h1>
+    </header>
+		
+		<article class="info">
+			<p>I'm Kevin Elam, a freelance animator and illustrator living in Central Oregon.</p>
+			<p>
+			<i class="fa fa-vimeo-square"></i><a href="#reel">Animation Reel <small>(2013)</small></a><br>
+			<i class="fa fa-vimeo-square"></i><a href="#nocomply">No Comply <small>(2003)</small></a>
+			</p>
+		</article>
+    
+    <div id="page_holder">
+    </div>
+
+		<ul class="meta inline-list">
+			<li><i class="fa fa-envelope-o"></i><a href="javascript:toggleDiv('contact');">Contact</a></li>
+			<li><i class="fa fa-copyright"></i>2015</li>
+		</ul>
+		
+		<div id="contact"><a href="mailto:kevinelam@gmail.com">kevinelam@gmail.com</a>
+		</div>
+
+</div>
+</div>
+
+<!--js-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/pagify.js" type="text/javascript"></script>
+
+<!--pagify-->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#page_holder').pagify({
+			pages: ['intro', 'reel', 'nocomply'],
+			animation: 'fadeIn',
+			'default': 'intro',
+			cache: true
+		});
+	});
+</script>
+
+<!--contact toggle-->
+<script type="text/javascript">
+	function toggleDiv(divId) {
+		$("#"+divId).toggle();
+	}
+</script>
+
+  </body>
+</html>
