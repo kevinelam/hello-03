@@ -4,7 +4,7 @@ body, html {height: 100%;}
 
 #container {max-width: 900px; margin: 0 auto;}
 #wrapper {box-sizing: border-box; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto;}
-#page_holder {margin: 10px 0; text-align: right;}
+#page_holder {text-align: right;}
 
 .desc {max-width: 300px; margin: 0 auto;}
 
