@@ -12,16 +12,17 @@ a:hover {color: #222; background-color: #F9DF74; border-bottom: 1px solid #F6CB2
 .name a {color: #C31;}
 .name a:hover {color: #C31; background-color: transparent; border-bottom: none;}
 
-.info a {padding: 0px 4px;}
+.info a {padding: 0 4px;}
 
-.meta {text-align: center; text-transform: uppercase; font-family: "Courier New, Quicksand", "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em; padding: 0; margin: 30px 0 0;}
-.meta a {padding: 0px 4px;}
+.meta {text-align: center; text-transform: uppercase; font-family: "Courier New", Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em; padding: 0; margin: 30px 0 0;}
+.meta a {padding: 0 4px;}
 .meta a:hover {color: #222; background-color: #F9DF74; border-bottom: 1px solid #F6CB2D;}
 .inline-list {list-style: none; margin: 0; padding: 0;}
 .inline-list li {display: inline-block; margin: 0 4px;}
 
 /*hidden contact*/
 #contact {display: none; text-transform: none; text-align: center; font-family: "Courier New", Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em; margin: 0 0 20px;}
+#contact a {padding: 0 4px;}
 
 /*font awesome*/
 .fa-vimeo-square {padding-right: 4px; color: #888}
