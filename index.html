@@ -53,7 +53,20 @@
     
     <div id="page_holder" />
     </div>
-  
+
+		<footer>
+			<ul class="meta inline-list">
+				<li>
+					<i class="fa fa-envelope-o"></i><a href="javascript:toggleDiv('contact');">Contact</a>
+					<div id="contact"><a href="mailto:kevinelam@gmail.com">kevinelam@gmail.com</a></div>
+				</li>
+				<li>
+					<i class="fa fa-copyright"></i>2015
+				</li>
+			</ul>
+		</footer>
+
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/modernizr-1.7.min.js" type="text/javascript"></script>
 <script src="js/pagify.js" type="text/javascript"></script>
@@ -68,6 +81,13 @@
 			cache: true
 		});
 	});
+</script>
+
+<!--contact toggle-->
+<script type="text/javascript">
+	function toggleDiv(divId) {
+		$("#"+divId).toggle();
+	}
 </script>
 
   </body>
