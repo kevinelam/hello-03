@@ -8,8 +8,6 @@ body, html {height: 100%;}
 a {color: #333; text-decoration: none;}
 a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #222}
 
-.desc a (padding: 0px 4px;)
-
 .name {font: 24px/28px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #C31; margin: 40px 0 25px;}
 .name a {color: #C31;}
 .name a:hover {color: #C31; background-color: transparent; border-bottom: none;}
@@ -27,6 +25,8 @@ a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #22
 .fa-vimeo-square {padding-right: 4px; color: #888}
 .fa-envelope-o {padding-right: 5px; color: #888}
 .fa-copyright {padding-right: 5px; color: #888}
+
+.desc a (padding: 0px 4px;)
 
 /*close vimeo*/
 #page_holder {text-align: right;}
