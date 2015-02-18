@@ -8,18 +8,16 @@ a {color: #333; text-decoration: none;}
 a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #222}
 
 .name {font: 24px/28px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #C31; margin: 20px 20px 30px;}
-
-/*.container {margin: 0 auto; width: 300px; padding: 80px 12px; overflow: auto;}
-*/
+.name a {color: #C31;}
+.name a:hover {color: #C31; background-color: transparent; border-bottom: none;}
 
 .meta {text-align: center; text-transform: uppercase; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em;}
 .meta a {border-bottom: none;}
 .meta a:hover {border-bottom: 1px solid #F6CB2D; background-color: #F9DF74; color: #222;}
 #contact {display: none; text-transform: none;}
 
-./*inline-list {list-style: none; margin: 0; padding: 0;}
+inline-list {list-style: none; margin: 0; padding: 0;}
 .inline-list li {display: inline-block;}
-*/
 
 /*font awesome*/
 .fa-vimeo-square {padding-right: 8px; color:#888}
