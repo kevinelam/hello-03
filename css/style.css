@@ -26,7 +26,7 @@ a:hover {color: #222; background-color: #F9DF74; border-bottom: 1px solid #F6CB2
 #contact a {padding: 0 4px;}
 
 /*font awesome*/
-.fa-vimeo-square {padding-right: 4px; color: #CFCFCF}
+.fa-vimeo-square, .fa-home {padding-right: 4px; color: #CFCFCF}
 .fa-envelope-o {padding-right: 2px; color: #888}
 .fa-copyright {padding-right: 5px; color: #888}
 
